@@ -21,14 +21,14 @@ build:
 
 requirements:
   build:
-    - r-base >3.3.2
+    - r-base
     - r-r.utils
     - r-foreach
     - r-raster
     - r-rgdal
     - r-sp
   run:
-    - r-base >3.3.2
+    - r-base
     - r-r.utils
     - r-foreach
     - r-raster
