@@ -1,4 +1,4 @@
-{% set version = '2.0.1.7' %}
+{% set version = "2.0.1.14" %}
 
 package:
   name: r-gdalutils
@@ -9,7 +9,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/gdalUtils_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/gdalUtils/gdalUtils_{{ version }}.tar.gz
-  sha256: 931138a03b37678f47a41a27dca4ba1938bed07a8a3e869f42feaa76aa380c59
+  sha256: 890a502b2eb5f1b23655fab94caad5d32adca05b93f5db1d96d9dcde3f0e7737
 
 build:
   number: 0
