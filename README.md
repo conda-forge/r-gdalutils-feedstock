@@ -14,14 +14,16 @@ Summary: Wrappers for the Geospatial Data Abstraction Library (GDAL) Utilities.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-gdalutils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-gdalutils-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-gdalutils-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-gdalutils-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-gdalutils-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-gdalutils-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-gdalutils-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-gdalutils-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-gdalutils/badges/version.svg)](https://anaconda.org/conda-forge/r-gdalutils)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-gdalutils/badges/downloads.svg)](https://anaconda.org/conda-forge/r-gdalutils)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--gdalutils-green.svg)](https://anaconda.org/conda-forge/r-gdalutils) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-gdalutils.svg)](https://anaconda.org/conda-forge/r-gdalutils) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-gdalutils.svg)](https://anaconda.org/conda-forge/r-gdalutils) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-gdalutils.svg)](https://anaconda.org/conda-forge/r-gdalutils) |
 
 Installing r-gdalutils
 ======================
