@@ -1,4 +1,4 @@
-{% set version = "2.0.3" %}
+{% set version = "2.0.3.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gdalUtils_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gdalUtils/gdalUtils_{{ version }}.tar.gz
-  sha256: f1dc8e6937194cd2934110ed4e017cd0c584fc3ea64ccfc39022db5039a30903
+  sha256: 4c6faabee2db8a87b7ea0f8e67e9fce3c5db7f4be353d7d86ea559507cbb2a4f
 
 build:
   merge_build_host: True  # [win]
