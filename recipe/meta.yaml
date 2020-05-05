@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -22,7 +22,7 @@ build:
 
 requirements:
   build:
-    - {{posix}}zip               # [win]
+    - {{ posix }}zip               # [win]
   host:
     - r-base
     - r-r.utils
@@ -45,9 +45,9 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=gdalUtils
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Wrappers for the Geospatial Data Abstraction Library (GDAL) Utilities.
-  license_family: GPL3
+  license_family: GPL
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
