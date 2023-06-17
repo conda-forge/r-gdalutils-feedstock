@@ -1,11 +1,11 @@
-About r-gdalutils
-=================
+About r-gdalutils-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gdalutils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=gdalUtils
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gdalutils-feedstock/blob/main/LICENSE.txt)
 
 Summary: Wrappers for the Geospatial Data Abstraction Library (GDAL) Utilities.
 
